@@ -1,0 +1,14 @@
+.mejs-zesd .mejs-controls{
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+
+#mep_0{
+    background: rgba(0,0,0,0);
+    width: 100vw;
+}
+
+.mejs-zesd .mejs-controls .mejs-time-rail .mejs-time-loaded{
+    background-color: white;
+}
