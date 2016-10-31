@@ -1,0 +1,23 @@
+{
+  "name": "zesd",
+  "version": "1.0.0",
+  "description": "Zesd.co website repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirjai/zesd.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirjai/zesd/issues"
+  },
+  "homepage": "https://github.com/kirjai/zesd#readme",
+  "dependencies": {
+    "semantic-ui": "^2.2.4"
+  }
+}

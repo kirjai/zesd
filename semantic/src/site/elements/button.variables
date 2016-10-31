@@ -1,0 +1,9 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@backgroundColor: @Color100;
+@textColor : @Color900;
+
+@hoverBackgroundColor: @Color50;
+@downBackgroundColor: @backgroundColor;

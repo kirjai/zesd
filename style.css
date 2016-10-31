@@ -1,0 +1,64 @@
+h1.ui.header {
+  letter-spacing: 5px;
+}
+
+h1.ui.header .sub {
+  letter-spacing: initial;
+}
+
+.ui.grid>.row {
+  padding: 0;
+}
+
+.ui.button.zesd-button {
+  margin-top: 20px;
+}
+
+.ui.grid>.row>.column.zesd-column {
+  padding: 0;
+}
+
+.zesd-column {
+  background-color: rgba(38,50,56, .75);
+  display: block;
+  position: relative;
+}
+
+.zesd-column::before {
+  content: "";
+  opacity: 1;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.zesd-column .zesd-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.zesd-primary-bg-image::before {
+  background: url('img/NAvsNU_500.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.zesd-music-bg-image::before {
+  background: url('img/instruments.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.zesd-video-bg-image::before {
+  background: url('img/video.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.index-grid {
+  height: 100vh;
+}

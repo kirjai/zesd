@@ -1,0 +1,22 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@Color50        : #ECEFF1;
+@Color100       : #CFD8DC;
+@Color200       : #B0BEC5;
+@Color300       : #90A4AE;
+@Color400       : #78909C;
+@Color500       : #607D8B;
+@Color600       : #546E7A;
+@Color700       : #455A64;
+@Color800       : #37474F;
+@Color900       : #263238;
+
+@primaryColor   : @Color500;
+@secondaryColor : @Color900;
+
+
+@pageBackground : @secondaryColor;
+
+@absoluteBorderRadius: 0;
