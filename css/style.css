@@ -247,7 +247,7 @@ zoom: 1; /* ie 6/7 */
 }
 
 footer{
-	background-color: #263238;
+	background-color: #263238; 
 	text-align: center;
 	padding: 40px 0;
 	font-size: .75em;
@@ -435,6 +435,10 @@ img.apple-music {
 img.google-play {
 	width: 175px;
 	margin-bottom: -9px;
+}
+
+#released-on {
+	display: none;
 }
 
 

@@ -9,9 +9,9 @@ $(document).ready(function(){
 
 	if (isReleased) {
 		releaseText = 'Out now';
+		jQuery('#released-on').show();
 	} else {
 		releaseText = 'Out 11th November';
-		jQuery('#released-on').hide();
 	}
 
 	jQuery('#release-text').html(releaseText);
