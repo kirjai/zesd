@@ -18,6 +18,11 @@
   },
   "homepage": "https://github.com/kirjai/zesd#readme",
   "dependencies": {
+    "del": "^2.2.2",
     "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "gulp-clean-css": "^2.0.13",
+    "gulp-uglify": "^2.0.0"
   }
 }
