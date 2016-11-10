@@ -14,10 +14,15 @@ gulp.task('copy-img', ['clean'], function() {
 
 gulp.task('copy-index', ['clean'], function() {
   return gulp.src('index.html')
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('dist'))
 });
 
-gulp.task('copy-dist', ['copy-index', 'copy-img']);
+gulp.task('copy-google-verification', ['clean'], function() {
+    return gulp.src('googledc8fe5bc4c9c4d48.html')
+    .pipe(gulp.dest('dist'));
+})
+
+gulp.task('copy-dist', ['copy-index', 'copy-img', 'copy-google-verification']);
 
 gulp.task('minify-css', ['clean'], function() {
   return gulp.src('css/*.css')
