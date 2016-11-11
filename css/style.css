@@ -443,10 +443,9 @@ img.google-play {
 	margin-bottom: -9px;
 }
 
-#released-on {
-	display: none;
+.music-platforms a {
+	text-decoration: none;
 }
-
 
 
 
